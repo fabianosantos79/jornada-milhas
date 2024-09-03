@@ -1,0 +1,57 @@
+<section class="modal">
+  <h2 mat-dialog-title>Viajante</h2>
+  <mat-dialog-content>
+    <div class="box-perfil">
+      <div>
+        <h3>Adultos</h3>
+        <p>(Acima de 12 anos)</p>
+        <div class="box-perfil-botoes">
+          <button mat-fab class="icones">
+            <mat-icon>remove</mat-icon>
+          </button>
+          <span>0</span>
+          <button mat-fab class="icones">
+            <mat-icon>add</mat-icon>
+          </button>
+        </div>
+      </div>
+      <div>
+        <h3>Crianças</h3>
+        <p>(Entre 2 e 11 anos)</p>
+        <div class="box-perfil-botoes">
+          <button mat-fab class="icones">
+            <mat-icon>remove</mat-icon>
+          </button>
+          <span>0</span>
+          <button mat-fab class="icones">
+            <mat-icon>add</mat-icon>
+          </button>
+        </div>
+      </div>
+      <div>
+        <h3>Bebês</h3>
+        <p>(Bebês até 2 anos)</p>
+        <div class="box-perfil-botoes">
+          <button mat-fab class="icones">
+            <mat-icon>remove</mat-icon>
+          </button>
+          <span>0</span>
+          <button mat-fab class="icones">
+            <mat-icon>add</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3>Categoria</h3>
+      <mat-chip-listbox aria-label="seleção de passagens">
+        <mat-chip-option selected> Econômica </mat-chip-option>
+        <mat-chip-option> Executiva </mat-chip-option>
+      </mat-chip-listbox>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-flat-button mat-dialog-close>Close</button>
+    <button mat-flat-button>Buscar</button>
+  </mat-dialog-actions>
+</section>

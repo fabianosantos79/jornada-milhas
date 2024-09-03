@@ -1,5 +1,34 @@
 <app-banner src="assets/images/banner-homepage.png" alt="Banner da aplicação">
 </app-banner>
 <app-container>
-  <h1>Olá mundo</h1>
+  <app-form-busca></app-form-busca>
+  <h2>Promoções</h2>
+  <div class="card-wrapper">
+    <app-card-busca></app-card-busca>
+    <app-card-busca></app-card-busca>
+    <app-card-busca></app-card-busca>
+    <app-card-busca></app-card-busca>
+    <app-card-busca></app-card-busca>
+    <app-card-busca></app-card-busca>
+  </div>
+  <h2>Depoimentos</h2>
+  <div class="card-wrapper">
+    <app-card-depoimento
+      imagem="assets/images/avatar3.png"
+      depoimento="Recomendo fortemente a agência de viagens Jornada. Eles oferecem um
+    serviço personalizado e de alta qualidade que excedeu minhas expectativas
+    em minha última viagem."
+      autor="Talita Magalhães"
+    ></app-card-depoimento>
+    <app-card-depoimento
+      imagem="assets/images/avatar3.png"
+      depoimento="A Jornada foi uma das melhores agências de viagens que eu já experimentei. O serviço ao cliente foi excepcional, e toda a equipe foi muito atenciosa e prestativa."
+      autor="Lauro Ramos"
+    ></app-card-depoimento>
+    <app-card-depoimento
+      imagem="assets/images/avatar3.png"
+      depoimento="Minha viagem com a Jornada foi incrível! Recomendo muito a agência para quem busca uma experiência emocionante a partir das nossas necessidades."
+      autor="Mariana Faustino"
+    ></app-card-depoimento>
+  </div>
 </app-container>

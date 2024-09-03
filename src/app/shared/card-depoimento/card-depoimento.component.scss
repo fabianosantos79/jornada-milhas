@@ -1,0 +1,18 @@
+.card-depoimento
+{
+  width: 315px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 20px 0px 20px;
+  background-color: #FEF7FF;
+
+  h3{
+    font-weight: 500;
+  }
+
+  .box-imagem{
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.modal{
+  width: 584px;
+  height: 384px;
+  padding: 32px;
+  border: 1px solid black;
+  .box-perfil{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  h3{
+    font-weight: bolder;
+  }
+  .box-perfil-botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icones{
+    width: 40px;
+    height: 40px;
+    background-color: #E8DEF8;
+    box-shadow: none;
+  }
+}
